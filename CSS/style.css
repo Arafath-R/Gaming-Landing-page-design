@@ -3,7 +3,7 @@
 .work_sans_style{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 *{
@@ -12,6 +12,11 @@
     box-sizing: border-box;
 }
 /* shared style */
+section{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
 .display_flex{
     display: flex;
 }
@@ -31,17 +36,15 @@
 .title_color{
     color: rgba(255, 66, 165, 1);
 }
-
-.gradient_color{
-    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-
-}
 .button_style{
     border: none;
     border-radius: 48px;
     background-color: rgba(255, 66, 165, 1);
     font-size: 1.25rem;
     padding: 21px 40px;
+}
+.icon_styles{
+    font-size: 1.5rem;
 }
 
 /* nav-bar */
@@ -50,7 +53,8 @@
 
 }
 .nav_container{
-    margin: 0 12.5%;
+    max-width: 1450px;
+    margin: 0 auto;
     padding: 37px 0;
     justify-content: space-between;
     align-items: center;
@@ -89,7 +93,47 @@
     font-size: 1.5rem;
     color:rgba(246, 28, 13, 1);
 }
-.icon_style_tiktok{
-    font-size: 1.5rem;
-}
+
 /* header section */
+
+.home_full_window{
+    max-width: 100%;
+}
+.b_img{
+    background-image: url("../resources/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+.home_container{
+    max-width:1500px;
+    margin: 0 auto;
+}
+.home_left{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.style_play{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.style_goat{
+    font-size: 6rem;
+    font-weight: 800;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+.bt_sign{
+    color: white;
+    font-weight: 600;
+    font-size: 1.25;
+    margin: 25px 20px 0 0;
+}
+.bt_rouge{
+    color: white;
+    font-weight: 600;
+    font-size: 1.25;
+    background-color: rgba(78, 197, 247, 1);
+}
