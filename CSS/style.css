@@ -103,7 +103,7 @@ section{
     background-image: url("../resources/Group\ 14.png");
     background-repeat: no-repeat;
 }
-.home_container{
+.home_container,.home_container2{
     max-width:1500px;
     margin: 0 auto;
 }

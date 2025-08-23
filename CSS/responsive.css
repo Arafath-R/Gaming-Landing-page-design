@@ -1,0 +1,82 @@
+@media screen and (max-width:576px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .nav_container{
+        flex-direction: column;
+        padding-top: 70px;
+    }
+    .nav_liks{
+        flex-direction: column;
+        padding-top: 70px;
+    }
+    .navbar{
+        box-shadow: none;
+    }
+
+    .home_container{
+        flex-direction: column-reverse;
+    }
+    .b_img{
+        background-image: none;
+    }
+    .home_left{
+        background-image: url("../resources/Group\ 14.png");
+        width: 100%;
+        padding-left: 100px;
+        padding-bottom: 80px;
+    }
+    .style_play{
+        margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+    .style_goat{
+        font-size: 3rem;
+        font-weight: 800;
+        background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        color: transparent;
+
+    }
+    .home_right{
+        width: 100%;
+    }
+    .section_description{
+    font-size: 3vw;
+    }
+    .button_style{
+        width: 30%;
+        font-size: 2.5vw;
+        padding: 10px 5px;
+    }
+    .home_container2{
+        flex-direction: column;
+    }
+    .img_left{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .content_right{
+        margin: 0 auto;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .des_style{
+        width: 100%;
+        text-align: center;
+    }
+    .title_desin{
+        font-size: 7vw;
+    }
+    .sen_style{
+        font-size: 4vw;
+    }
+    .bg_img{
+        background-image: none;
+    }
+    
+}
