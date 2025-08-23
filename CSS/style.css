@@ -129,11 +129,44 @@ section{
     color: white;
     font-weight: 600;
     font-size: 1.25;
-    margin: 25px 20px 0 0;
 }
 .bt_rouge{
     color: white;
     font-weight: 600;
     font-size: 1.25;
     background-color: rgba(78, 197, 247, 1);
+    margin: 25px 20px 0 0;
+}
+
+
+/* gamer section */
+
+.bg_img{
+    background-image: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.img_left{
+    width: 80%;
+    padding:70px 0;
+}
+.content_right{
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-left: 100px;
+    gap: 20px;
+}
+.title_desin{
+    font-size: 3rem;
+    font-weight: 700;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    color: transparent;
+}
+.des_style{
+    text-align: end;
+}
+.sen_style{
+    font-weight: 700;
+    font-size: 2rem;
+    color:rgba(83, 76, 100, 1);
 }
