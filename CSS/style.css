@@ -170,3 +170,41 @@ section{
     font-size: 2rem;
     color:rgba(83, 76, 100, 1);
 }
+
+/* card section */
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 10px;
+}
+.online_card{
+    position:relative;
+}
+.online_card img{
+    width: 100%;
+}
+.play_card{
+    position: absolute;
+    top: 42%;
+    left: 38%;
+    text-align: center;
+    display: none;
+}
+.play_card i{
+    font-size: 2vw;
+    color: white;
+}
+.play_card p{
+    color:#F948B2;
+    font-size: 1vw;
+}
+.online_card img:hover+.play_card{
+    display: block;
+}
+.play_card:hover{
+    display: block;
+}
+.online_card img:hover{
+    filter: brightness(50%);
+}
+
